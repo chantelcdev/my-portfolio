@@ -271,7 +271,7 @@ export default function Contact() {
                   className="bg-green-50 border border-green-200 rounded-lg p-4"
                 >
                   <p className="text-green-800 text-center font-medium">
-                    ✓ Message sent successfully! I&apos;ll get back to you soon.
+                    ✓ Thank you for reaching out! I&apos;ll be in touch soon.
                   </p>
                 </motion.div>
               )}
