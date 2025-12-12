@@ -155,7 +155,7 @@ export default function Services() {
   return (
     <section id="services" className="py-20 px-4 mb-10">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold mb-8 mt-8 text-center">
+        <h2 className="text-4xl font-bold mb-8 mt-8 text-center text-gray-800">
           How I Can Help
         </h2>
         <div className="max-w-3xl mx-auto text-xl text-gray-600 text-center mb-12 leading-relaxed">

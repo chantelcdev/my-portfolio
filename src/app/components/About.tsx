@@ -79,12 +79,9 @@ export default function About() {
     <>
       <section
         id="about"
-        className="md:py-50 py-30 px-4 relative"
+        className="md:py-50 py-30 px-4 relative bg-cover bg-center bg-no-repeat md:bg-fixed"
         style={{
           backgroundImage: `url('/san-luis-obispo.jpg')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
         }}
       >
         <div className="max-w-6xl mx-auto relative z-10">
@@ -92,7 +89,7 @@ export default function About() {
             {/* About Me Section */}
             <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
             <div className="max-w-5xl mx-auto md:text-lg text-base">
-              <p className="mb-6">
+              <p className="mb-6 text-gray-700 leading-relaxed">
                 I&apos;m a Senior Software Engineer with a decade of experience
                 building complex projects with teams at companies like Mindbody
                 and AppFolio. Currently, I partner with clients directly to
@@ -101,13 +98,13 @@ export default function About() {
                 true full-stack developer who loves solving problems and
                 creating end-to-end solutions.
               </p>
-              <p className="mb-6">
+              <p className="mb-6 text-gray-700 leading-relaxed">
                 When I&apos;m not coding, you can find me adventuring with my
                 two little ones, trying my hand at latte art, enjoying life on
                 the Central Coast of California, and getting lost in fantasy
                 books.
               </p>
-              <p>
+              <p className="text-gray-700 leading-relaxed">
                 Check out my values below to learn what&apos;s important to me
                 and what I bring to every project.
               </p>

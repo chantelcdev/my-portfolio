@@ -5,16 +5,13 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen relative flex items-center justify-center px-4 pt-32 pb-16"
+      className="min-h-screen relative flex items-center justify-center px-4 pt-32 pb-16 bg-cover bg-center bg-no-repeat md:bg-fixed"
       style={{
         backgroundImage: `url('/computer-code.jpg')`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
       }}
     >
       <div className="max-w-6xl mx-auto w-full">
-        <div className="bg-white/70 backdrop-blur-sm rounded-lg p-8 shadow-lg">
+        <div className="bg-white/60 backdrop-blur-sm rounded-lg p-8 shadow-lg mt-4 md:mt-0">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <div className="flex-shrink-0">
               <Image

@@ -72,7 +72,7 @@ export default function Navigation() {
               width={isScrolled ? 64 : 200}
               height={isScrolled ? 64 : 200}
               className={`inline-block transition-all duration-300 ${
-                isScrolled ? "h-16 w-16" : "h-50 w-50"
+                isScrolled ? "h-16 w-16" : "md:h-50 md:w-50 h-30 w-30"
               }`}
             />
           </motion.a>
