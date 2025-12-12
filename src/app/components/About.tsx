@@ -87,7 +87,9 @@ export default function About() {
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg">
             {/* About Me Section */}
-            <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-gray-800">
+              About Me
+            </h2>
             <div className="max-w-5xl mx-auto md:text-lg text-base">
               <p className="mb-6 text-gray-700 leading-relaxed">
                 I&apos;m a Senior Software Engineer with a decade of experience

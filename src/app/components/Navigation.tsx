@@ -44,8 +44,9 @@ export default function Navigation() {
 
   const navItems = [
     { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
+    { name: "Services", href: "#services" },
     { name: "My Work", href: "#projects" },
+    { name: "About", href: "#about" },
     { name: "Contact", href: "#contact" },
   ];
 
