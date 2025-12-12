@@ -18,7 +18,7 @@ export default function Hero() {
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <div className="flex-shrink-0">
               <Image
-                src="/chantel-crother.png?v=3"
+                src="/chantel-crother.png"
                 alt="Chantel Crother"
                 width={256}
                 height={256}
