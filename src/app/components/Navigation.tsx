@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -65,11 +66,13 @@ export default function Navigation() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <img
+            <Image
               src="/chantel-crother-logo.png"
               alt="Logo"
+              width={isScrolled ? 64 : 200}
+              height={isScrolled ? 64 : 200}
               className={`inline-block transition-all duration-300 ${
-                isScrolled ? "h-16 w-16" : "md:h-50 md:w-50 h-30 w-30"
+                isScrolled ? "h-16 w-16" : "h-50 w-50"
               }`}
             />
           </motion.a>
@@ -84,7 +87,7 @@ export default function Navigation() {
             }}
             transition={{ duration: 0.3, ease: "easeOut" }}
           >
-            {navItems.map((item, index) => (
+            {navItems.map((item) => (
               <motion.a
                 key={item.name}
                 href={item.href}

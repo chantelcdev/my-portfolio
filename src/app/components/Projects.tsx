@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Calendar, MapPin, Mail } from "lucide-react";
+import { ExternalLink, Calendar } from "lucide-react";
 import Image from "next/image";
 import {
   VerticalTimeline,
@@ -276,9 +276,11 @@ export default function Projects() {
               iconStyle={{ background: "#fff" }}
               icon={
                 <div className="w-full h-full flex items-center justify-center p-2">
-                  <img
+                  <Image
                     src={job.logo}
                     alt={job.company}
+                    width={40}
+                    height={40}
                     className="max-w-full max-h-full object-contain"
                   />
                 </div>
@@ -315,7 +317,7 @@ export default function Projects() {
             href="#contact"
             className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors"
           >
-            Let's Work Together
+            Let&apos;s Work Together
           </a>
         </div>
       </div>

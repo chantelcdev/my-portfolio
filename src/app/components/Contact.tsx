@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, MessageCircle, User, Send, Phone } from "lucide-react";
+import { Mail, User, Send, Phone } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -71,7 +71,7 @@ export default function Contact() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl font-bold mb-4 mt-8 text-gray-800">
-            Let's Work Together
+            Let&apos;s Work Together
           </h2>
           {/* Contact Info */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-8 mb-8">
@@ -271,7 +271,7 @@ export default function Contact() {
                   className="bg-green-50 border border-green-200 rounded-lg p-4"
                 >
                   <p className="text-green-800 text-center font-medium">
-                    ✓ Message sent successfully! I'll get back to you soon.
+                    ✓ Message sent successfully! I&apos;ll get back to you soon.
                   </p>
                 </motion.div>
               )}

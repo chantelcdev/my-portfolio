@@ -13,7 +13,7 @@ function ServiceCard({
   service: {
     title: string;
     description: string;
-    icon: any;
+    icon: React.ComponentType<{ className?: string }>;
   };
   index: number;
   expandedService: string | null;
@@ -159,8 +159,8 @@ export default function Services() {
           How I Can Help
         </h2>
         <div className="max-w-3xl mx-auto text-xl text-gray-600 text-center mb-12 leading-relaxed">
-          Whether you're trying to get a new idea off the ground, improve an
-          existing product, or solve complex problems, I can help make it
+          Whether you&apos;re trying to get a new idea off the ground, improve
+          an existing product, or solve complex problems, I can help make it
           happen.
         </div>
 

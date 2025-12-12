@@ -93,22 +93,23 @@ export default function About() {
             <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
             <div className="max-w-5xl mx-auto md:text-lg text-base">
               <p className="mb-6">
-                I'm a Senior Software Engineer with a decade of experience
+                I&apos;m a Senior Software Engineer with a decade of experience
                 building complex projects with teams at companies like Mindbody
                 and AppFolio. Currently, I partner with clients directly to
                 remove blockers and bring their visions to life, while
-                maintaining the flexibility to balance work and life. I'm a true
-                full-stack developer who loves solving problems and creating
-                end-to-end solutions.
+                maintaining the flexibility to balance work and life. I&apos;m a
+                true full-stack developer who loves solving problems and
+                creating end-to-end solutions.
               </p>
               <p className="mb-6">
-                When I'm not coding, you can find me adventuring with my two
-                little ones, trying my hand at latte art, enjoying life on the
-                Central Coast of California, and getting lost in fantasy books.
+                When I&apos;m not coding, you can find me adventuring with my
+                two little ones, trying my hand at latte art, enjoying life on
+                the Central Coast of California, and getting lost in fantasy
+                books.
               </p>
               <p>
-                Check out my values below to learn what's important to me and
-                what I bring to every project.
+                Check out my values below to learn what&apos;s important to me
+                and what I bring to every project.
               </p>
             </div>
           </div>

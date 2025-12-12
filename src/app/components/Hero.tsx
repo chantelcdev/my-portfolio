@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -16,16 +17,18 @@ export default function Hero() {
         <div className="bg-white/70 backdrop-blur-sm rounded-lg p-8 shadow-lg">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <div className="flex-shrink-0">
-              <img
+              <Image
                 src="/chantel-crother.png?v=3"
                 alt="Chantel Crother"
+                width={256}
+                height={256}
                 className="w-44 h-44 lg:w-64 lg:h-64 rounded-2xl object-cover"
               />
             </div>
             <div className="flex-1 text-center lg:text-left">
               <p className="text-xl md:text-2xl mb-8 text-gray-900 font-sans font-normal leading-relaxed">
-                Hi, I'm Chantel — a Senior Software Engineer with 10+ years of
-                experience, currently helping clients transform concepts into
+                Hi, I&apos;m Chantel — a Senior Software Engineer with 10+ years
+                of experience, currently helping clients transform concepts into
                 reliable, high-quality software solutions through thoughtful
                 design and clean, efficient code.
               </p>
