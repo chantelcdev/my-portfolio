@@ -240,6 +240,8 @@ export default function Projects() {
                     autoPlay
                     muted
                     loop
+                    playsInline
+                    preload="metadata"
                     className="w-full aspect-video object-cover"
                   >
                     Your browser does not support the video tag.
