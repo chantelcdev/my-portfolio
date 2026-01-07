@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Mail, Phone, Github, Linkedin, MapPin } from "lucide-react";
+import { Mail, Phone, Github, Linkedin, MapPin, FileText } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -76,8 +76,6 @@ export default function Footer() {
               </a>
             </div>
           </motion.div>
-
-          {/* Social & Professional Links */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -104,6 +102,15 @@ export default function Footer() {
               >
                 <Linkedin className="w-5 h-5" />
                 LinkedIn
+              </a>
+              <a
+                href="https://chantelcrother.dev/chantel-crother-resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors"
+              >
+                <FileText className="w-5 h-5" />
+                Resume
               </a>
             </div>
           </motion.div>

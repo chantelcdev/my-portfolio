@@ -12,6 +12,9 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "Chantel Crother",
   description: "Software Engineer & Technical Consultant",
+  openGraph: {
+    images: ["https://chantelcrother.com/chantelcrother-site.png"],
+  },
 };
 
 export default function RootLayout({
